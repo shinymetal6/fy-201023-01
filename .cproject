@@ -82,8 +82,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="kernel/startup|drivers/wireless/st_nfc|kernel/ota|modules/audio/Generators_dont_include_yet|modules/audio/Effects_dont_include_yet" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os"/>
-						<entry excluding="STM32H743/FlashProcesses|STM32H743/BasicProcesses|STM32H743/ModBus|STM32H743/Networking|STM32H743/AudioProcesses" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os_SampleUserProcesses"/>
+						<entry excluding="modules/xmodem|kernel/ota|drivers/wireless/st_nfc|kernel/startup|modules/audio/Effects_dont_include_yet|modules/audio/Generators_dont_include_yet" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os"/>
+						<entry excluding="STM32H743/ModBus|STM32H743/FlashProcesses|STM32H743/BasicProcesses|STM32H743/AudioProcesses|STM32H743/Networking" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os_SampleUserProcesses"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="FATFS"/>
@@ -169,8 +169,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="kernel/startup|drivers/wireless/st_nfc|kernel/ota|modules/audio/Generators_dont_include_yet|modules/audio/Effects_dont_include_yet" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os"/>
-						<entry excluding="STM32H743/FlashProcesses|STM32H743/BasicProcesses|STM32H743/ModBus|STM32H743/Networking|STM32H743/AudioProcesses" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os_SampleUserProcesses"/>
+						<entry excluding="modules/xmodem|kernel/ota|drivers/wireless/st_nfc|kernel/startup|modules/audio/Effects_dont_include_yet|modules/audio/Generators_dont_include_yet" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os"/>
+						<entry excluding="STM32H743/ModBus|STM32H743/FlashProcesses|STM32H743/BasicProcesses|STM32H743/AudioProcesses|STM32H743/Networking" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A_os_SampleUserProcesses"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="FATFS"/>
