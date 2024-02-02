@@ -19,7 +19,6 @@ RM := rm -rf
 -include A_os_SampleUserProcesses/STM32H743/fyber/subdir.mk
 -include A_os/modules/modbus/subdir.mk
 -include A_os/modules/audio/subdir.mk
--include A_os/kernel/flash_updater/STM32H743/subdir.mk
 -include A_os/kernel/HwDevices/subdir.mk
 -include A_os/kernel/subdir.mk
 -include A_os/drivers/wireless/nrf24l01/subdir.mk
@@ -28,7 +27,7 @@ RM := rm -rf
 -include A_os/drivers/lcd_st7735/subdir.mk
 -include A_os/drivers/internal_dac/subdir.mk
 -include A_os/drivers/internal_adc/subdir.mk
--include A_os/drivers/external_flash/subdir.mk
+-include A_os/drivers/flash/subdir.mk
 -include A_os/drivers/codec/subdir.mk
 -include A_os/drivers/USB/STM32H743/Target/subdir.mk
 -include A_os/drivers/USB/STM32H743/Core/subdir.mk

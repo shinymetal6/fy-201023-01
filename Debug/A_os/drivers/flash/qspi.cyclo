@@ -1,8 +1,0 @@
-/Devel/Stm32_14.0/A_os/drivers/flash/qspi.c:35:21:qspi_init	1
-/Devel/Stm32_14.0/A_os/drivers/flash/qspi.c:48:9:qspi_Read	1
-/Devel/Stm32_14.0/A_os/drivers/flash/qspi.c:55:9:qspi_WriteEnable	1
-/Devel/Stm32_14.0/A_os/drivers/flash/qspi.c:62:9:qspi_WriteDisable	1
-/Devel/Stm32_14.0/A_os/drivers/flash/qspi.c:69:9:qspi_Write	1
-/Devel/Stm32_14.0/A_os/drivers/flash/qspi.c:76:9:qspi_Erase_Block	1
-/Devel/Stm32_14.0/A_os/drivers/flash/qspi.c:83:9:qspi_Erase_Sector	1
-/Devel/Stm32_14.0/A_os/drivers/flash/qspi.c:90:9:qspi_Erase_Chip	1
