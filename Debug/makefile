@@ -19,6 +19,7 @@ RM := rm -rf
 -include A_os_SampleUserProcesses/STM32H743/fyber/subdir.mk
 -include A_os/modules/modbus/subdir.mk
 -include A_os/modules/audio/subdir.mk
+-include A_os/kernel/flash_updater/STM32H743/subdir.mk
 -include A_os/kernel/HwDevices/subdir.mk
 -include A_os/kernel/subdir.mk
 -include A_os/drivers/wireless/nrf24l01/subdir.mk
@@ -27,7 +28,7 @@ RM := rm -rf
 -include A_os/drivers/lcd_st7735/subdir.mk
 -include A_os/drivers/internal_dac/subdir.mk
 -include A_os/drivers/internal_adc/subdir.mk
--include A_os/drivers/flash/subdir.mk
+-include A_os/drivers/external_flash/subdir.mk
 -include A_os/drivers/codec/subdir.mk
 -include A_os/drivers/USB/STM32H743/Target/subdir.mk
 -include A_os/drivers/USB/STM32H743/Core/subdir.mk
@@ -82,8 +83,8 @@ all: main-build
 main-build: fy-201023-01.elf secondary-outputs
 
 # Tool invocations
-fy-201023-01.elf fy-201023-01.map: $(OBJS) $(USER_OBJS) /Devel/Stm32_14.0/fy-201023-01/STM32H743VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "fy-201023-01.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/Devel/Stm32_14.0/fy-201023-01/STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="fy-201023-01.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+fy-201023-01.elf fy-201023-01.map: $(OBJS) $(USER_OBJS) /Devel/Stm32_14.0_A_os/fy-201023-01/STM32H743VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "fy-201023-01.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/Devel/Stm32_14.0_A_os/fy-201023-01/STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="fy-201023-01.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

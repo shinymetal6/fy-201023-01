@@ -28,7 +28,7 @@ A_os/drivers/USB/STM32H743/Class/MIDI \
 A_os/drivers/USB/STM32H743/Core \
 A_os/drivers/USB/STM32H743/Target \
 A_os/drivers/codec \
-A_os/drivers/flash \
+A_os/drivers/external_flash \
 A_os/drivers/internal_adc \
 A_os/drivers/internal_dac \
 A_os/drivers/lcd_st7735 \
@@ -37,6 +37,7 @@ A_os/drivers/wireless/SX126xRadio \
 A_os/drivers/wireless/nrf24l01 \
 A_os/kernel \
 A_os/kernel/HwDevices \
+A_os/kernel/flash_updater/STM32H743 \
 A_os/modules/audio \
 A_os/modules/modbus \
 A_os_SampleUserProcesses/STM32H743/fyber \

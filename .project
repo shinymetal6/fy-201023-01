@@ -33,12 +33,12 @@
 		<link>
 			<name>A_os</name>
 			<type>2</type>
-			<location>/Devel/Stm32_14.0/A_os</location>
+			<location>/Devel/Stm32_14.0_A_os/A_os</location>
 		</link>
 		<link>
 			<name>A_os_SampleUserProcesses</name>
 			<type>2</type>
-			<location>/Devel/Stm32_14.0/A_os_SampleUserProcesses</location>
+			<location>/Devel/Stm32_14.0_A_os/A_os_SampleUserProcesses</location>
 		</link>
 	</linkedResources>
 </projectDescription>
