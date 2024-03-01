@@ -1,0 +1,4 @@
+/Devel/Stm32_14.0_A_os/A_os_SampleUserProcesses/STM32H743/fyber/process_4.c:12:6:step_leds	8	static
+/Devel/Stm32_14.0_A_os/A_os_SampleUserProcesses/STM32H743/fyber/process_4.c:60:6:all_on	8	static
+/Devel/Stm32_14.0_A_os/A_os_SampleUserProcesses/STM32H743/fyber/process_4.c:72:6:all_off	8	static
+/Devel/Stm32_14.0_A_os/A_os_SampleUserProcesses/STM32H743/fyber/process_4.c:84:6:process_4	16	static

@@ -1,0 +1,3 @@
+/Devel/Stm32_14.0_A_os/A_os/modules/modbus/A_modbus.c:32:9:A_modbus_CRC_Init	8	static
+/Devel/Stm32_14.0_A_os/A_os/modules/modbus/A_modbus.c:47:6:A_modbus_init	16	static
+/Devel/Stm32_14.0_A_os/A_os/modules/modbus/A_modbus.c:58:9:A_modbus_process	8	static
